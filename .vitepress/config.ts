@@ -41,7 +41,7 @@ export default defineConfig({
       }
     ],
     editLink: {
-      pattern: 'https://github.com/shimada666/docs-template/edit/main/:path',
+      pattern: 'https://github.com/shimada666/docs-template/edit/master/:path',
       text: 'Edit this page on GitHub'
     },
     footer: {
