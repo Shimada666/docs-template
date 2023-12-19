@@ -50,14 +50,5 @@ export default defineConfig({
     },
     nav,
     sidebar
-  },
-  vite: {
-    build: {
-      minify: 'terser',
-      chunkSizeWarningLimit: Infinity
-    }
-  },
-  vue: {
-    reactivityTransform: true
   }
 })
