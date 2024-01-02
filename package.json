@@ -1,16 +1,21 @@
 {
   "name": "docs-template",
-  "author": "Shimada666",
   "type": "module",
+  "author": "Shimada666",
+  "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:serve": "vitepress serve"
   },
-  "license": "MIT",
   "dependencies": {
     "vitepress": "1.0.0-rc.32",
     "vue": "^3.3.12"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.43.1",
+    "eslint": "^8.56.0",
+    "vite-plugin-vitepress-auto-sidebar": "^1.6.1"
   },
   "pnpm": {
     "peerDependencyRules": {
